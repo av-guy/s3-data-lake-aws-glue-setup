@@ -14,4 +14,4 @@ REGION = config.get("AWS", "REGION")
 GLUE_ROLE_NAME = config.get("IAM", "GLUE_ROLE_NAME")
 GLUE_ROLE_POLICY_NAME = config.get("IAM", "GLUE_ROLE_POLICY_NAME")
 S3_ROLE_POLICY_NAME = config.get("IAM", "S3_ROLE_POLICY_NAME")
-
+DB_NAME = config.get("GLUE", "DB_NAME")
