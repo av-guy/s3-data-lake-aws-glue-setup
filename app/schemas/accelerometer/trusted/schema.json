@@ -1,0 +1,7 @@
+[
+  { "Name": "user", "Type": "string" },
+  { "Name": "timestamp", "Type": "bigint" },
+  { "Name": "x", "Type": "float" },
+  { "Name": "y", "Type": "float" },
+  { "Name": "z", "Type": "float" }
+]

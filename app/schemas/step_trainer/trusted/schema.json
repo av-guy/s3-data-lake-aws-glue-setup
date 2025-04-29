@@ -1,0 +1,6 @@
+[
+    { "Name": "sensorreadingtime", "Type": "bigint" },
+    { "Name": "serialnumber", "Type": "string" },
+    { "Name": "distancefromobject", "Type": "int" }
+]
+  

@@ -1,0 +1,12 @@
+[
+  { "Name": "customername", "Type": "string" },
+  { "Name": "email", "Type": "string" },
+  { "Name": "phone", "Type": "string" },
+  { "Name": "birthday", "Type": "string" },
+  { "Name": "serialnumber", "Type": "string" },
+  { "Name": "registrationdate", "Type": "bigint" },
+  { "Name": "lastupdatedate", "Type": "bigint" },
+  { "Name": "sharewithresearchasofdate", "Type": "bigint" },
+  { "Name": "sharewithpublicasofdate", "Type": "bigint" },
+  { "Name": "sharewithfriendsasofdate", "Type": "bigint" }
+]
