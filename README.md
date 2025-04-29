@@ -92,8 +92,8 @@ To set up this project and provision the required AWS infrastructure, follow the
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd <project-root>
+git clone https://github.com/av-guy/s3-data-lake-aws-glue-setup.git
+cd s3-data-lake-aws-glue-setup
 ```
 
 ### 2. Create a virtual environment and install dependencies
