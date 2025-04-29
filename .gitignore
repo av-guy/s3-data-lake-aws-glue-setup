@@ -1,2 +1,4 @@
 .venv
 dwh.cfg
+examples
+*/**/__pycache__
