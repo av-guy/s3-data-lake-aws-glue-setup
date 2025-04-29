@@ -52,10 +52,10 @@ async def create_and_wait_for_bucket(bucket_name: str):
     bucket_name : str
         Name of the S3 bucket to create.
     """
-    return await create_bucket(bucket_name)
+    return create_bucket(bucket_name)
 
 
-async def create_bucket(bucket_name: str) -> None:
+def create_bucket(bucket_name: str) -> None:
     """
     Create a new S3 bucket with the given name.
 
