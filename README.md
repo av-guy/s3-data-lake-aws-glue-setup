@@ -22,12 +22,11 @@ It includes:
 app/
 ├── data/
 │   ├── accelerometer/
-│   │   ├── landing/
-│   │   └── schema.json
+│   │   └── landing/
 │   ├── customer/
-│   │   ├── landing/
-│   │   └── schema.json
+│   │   └── landing/
 │   └── step_trainer/
+│   │   └── landing/
 ├── schemas/
 │   ├── accelerometer/
 │   │   ├── landing/
@@ -68,9 +67,9 @@ app/
 | Path             | Description                                          |
 | ---------------- | ---------------------------------------------------- |
 | `data/`          | Sample raw data Glue tables                          |
-| `accelerometer/` | Accelerometer JSON data and schema file              |
-| `customer/`      | Customer JSON data and schema file                   |
-| `step_trainer/`  | Placeholder for future Step Trainer data             |
+| `accelerometer/` | Accelerometer JSON data                              |
+| `customer/`      | Customer JSON data                                   |
+| `step_trainer/`  | Step trainer JSON data                               |
 | `schemas/`       | Schema definitions for Glue tables                   |
 | `iac/`           | Infrastructure-as-Code logic for AWS setup/teardown  |
 | `config.py`      | Constants like S3 bucket name, region, VPC ID, etc.  |
